@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "clean": "rm -rf node_modules",
+    "start": "node app"
   },
   "repository": {
     "type": "git",
@@ -16,7 +18,9 @@
   },
   "homepage": "https://github.com/birgittab/week8#readme",
   "devDependencies": {
-    "jest": "^23.6.0"
+    "express": "^4.16.3",
+    "jest": "^23.6.0",
+    "supertest": "^3.3.0"
   },
   "dependencies": {},
   "description": ""
